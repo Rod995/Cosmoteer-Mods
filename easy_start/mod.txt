@@ -1,0 +1,35 @@
+ID = cosmoteer.easy_start
+Name = "Easy Start - 2.5 Multiplier"
+Version = 1.0.0
+CompatibleGameVersions = ["0.14.4"]
+ModifiesMultiplayer = false
+Author = "Rod99"
+Description = "Multiplies the starting credits in Bounty Hunter mode by <money>1.5</money>. This only works for new Bounty Hunter games and does not work with existing saved games."
+
+Actions
+[
+	{
+		Action = Overrides
+		OverrideIn = "<modes/singleplayer/bounty/bounty.txt>/DifficultyLevels/0"
+		Overrides
+		{
+			StartingMoney = 150000
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<modes/singleplayer/bounty/bounty.txt>/DifficultyLevels/1"
+		Overrides
+		{
+			StartingMoney = 120000
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<modes/singleplayer/bounty/bounty.txt>/DifficultyLevels/2"
+		Overrides
+		{
+			StartingMoney = 110000
+		}
+	}
+]
