@@ -1,4 +1,4 @@
-ID = cosmoteer.easy_start
+ID = cosmoteer.medium_start
 Name = "Easy Start - 2.5 Multiplier"
 Version = 1.0.0
 CompatibleGameVersions = ["0.14.4"]
